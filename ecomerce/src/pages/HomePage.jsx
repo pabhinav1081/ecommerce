@@ -1,8 +1,10 @@
-import './header.css';
+import Header from '../components/Header';
 import './HomePage.css';
 export default function HomePage(){
   return(
         <> <title>Home Page</title>
+        <Header />
+    
         <div className="header">
         <div className="left-section">
             <a href="/" className="header-link">

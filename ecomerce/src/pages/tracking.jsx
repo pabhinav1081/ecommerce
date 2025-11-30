@@ -1,8 +1,11 @@
 import './tracking.css'
-import "./header.css"
+import Header from '../components/Header'
 export default function Tracking(){
     return(
-        <> <div className="header">
+        <> <title>Order Tracking</title>
+        <Header />
+        <div className="header">
+
       <div className="left-section">
         <a href="/" className="header-link">
           <img className="logo"
