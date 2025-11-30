@@ -7,7 +7,7 @@ function App() {
   return (
     <Routes>
       <Route path='/' element={<HomePage />} />
-      <Route path ="checkout.html" element={<Checkoutpage />} />
+      <Route path ="/checkout" element={<Checkoutpage />} />
     </Routes>
     //<HomePage />
 
